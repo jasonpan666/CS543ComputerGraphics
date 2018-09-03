@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{e7f97014-5c81-4ee6-944b-77b5101d4ac9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="textfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InitShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="example1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bmpread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTMStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Spotlight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="textfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Angel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTMStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spotlight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bmpread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fshader1.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="vshader1.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Resources\airplane.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ant.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\apple.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\balance.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\beethoven.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\big_atc.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\big_dodge.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\big_porsche.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\big_spider.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\canstick.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\chopper.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\cow.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\dolphins.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\egret.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\f16.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\footbones.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\fracttree.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\galleon.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\hammerhead.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\helix.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\hind.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\kerolamp.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\ketchup.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\mug.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\part.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pickup_big.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pump.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\pumpa_tb.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\sandal.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\saratoga.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\scissors.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\shark.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\steeringweel.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\stratocaster.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\street_lamp.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\teapot.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\tennis_shoe.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\tommygun.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\trashcan.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\turbine.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\urn2.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\walkman.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\weathervane.ply">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\grass.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\nvnegx.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\nvnegy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\nvnegz.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\nvposx.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\nvposy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\nvposz.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\stones.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
